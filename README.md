@@ -25,7 +25,7 @@ Unfortunately, using the `rust-circuit` library to work with `gpt2-small` is not
 
 1. Compile [rust-circuit](https://github.com/redwoodresearch/rust_circuit_public), following the instructions there given; note that this requires clang and rust. The repo instructs you to install maturin; be sure to install 0.14.x (we used 0.14.7), as newer versions do not work.
 2. Install this project's requirements via the provided requirements file `pip install -r requirements.txt`
-3. Download the `gpt2-small` model files from [this link](https://rrserve.s3.us-west-2.amazonaws.com/remix/remix_tensors.zip). Extract them to a folder called `~/tensors_by_hash_cache/`. If this doesn't work, try extracting them instead to `../rrfs/tensor_db`.
+3. Download the `gpt2-small` model files from [this link](https://rrserve.s3.us-west-2.amazonaws.com/remix/remix_tensors.zip). Extract them to a folder called `../rrfs/tensor_db`.
 
 # The paper
 Our paper is available on [ArXiv](https://arxiv.org/abs/2305.00586) and, hopefully sometime soon, on the NeurIPS website. You can cite it like so:
