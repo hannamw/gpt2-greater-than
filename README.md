@@ -28,15 +28,15 @@ Unfortunately, using the `rust-circuit` library to work with `gpt2-small` is not
 3. Download the `gpt2-small` model files from [this link](https://rrserve.s3.us-west-2.amazonaws.com/remix/remix_tensors.zip). Extract them to a folder called `../rrfs/tensor_db`.
 
 # The paper
-Our paper is available on [ArXiv](https://arxiv.org/abs/2305.00586) and, hopefully sometime soon, on the NeurIPS website. You can cite it like so:
+Our paper is available on [ArXiv](https://arxiv.org/abs/2305.00586) and on OpenReview / the NeurIPS website. You can cite it like this:
 
 ```
 @inproceedings{
-hanna2023how,
-title={How does {GPT}-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model},
-author={Michael Hanna and Ollie Liu and Alexandre Variengien},
-booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-year={2023},
-url={https://openreview.net/forum?id=p4PckNQR8k}
+  hanna2023how,
+  title={How does {GPT}-2 compute greater-than?: Interpreting mathematical abilities in a pre-trained language model},
+  author={Michael Hanna and Ollie Liu and Alexandre Variengien},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023},
+  url={https://openreview.net/forum?id=p4PckNQR8k}
 }
 ```
